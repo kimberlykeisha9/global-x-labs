@@ -21,7 +21,11 @@
 }
 
 * {
-  transition: 200ms
+  transition: 200ms;
+  line-break: normal;
+  word-break: break-all;
+  word-wrap: normal;
+  white-space: normal;
 }
 
 .font-playfair {

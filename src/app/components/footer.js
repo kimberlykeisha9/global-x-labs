@@ -53,7 +53,7 @@ export default function Footer() {
           />
         </form>
       </div>
-      <p className="text-sm p-4">
+      <p className="text-sm p-4 text-center">
         GLOBALX INVESTMENTS LIMITED | COPYRIGHT 2024 Ⓒ
       </p>
     </div>

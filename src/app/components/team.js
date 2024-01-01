@@ -13,7 +13,7 @@ export default function Team() {
       <br />
       <p className="font-bold text-center text-sm">OUR TEAM</p>
       <br />
-      <div className="place-self-center grid grid-cols-2 gap-10 items-center">
+      <div className="gap-10 sm:grid grid-cols-2  items-center">
         {employees.map((employee, index) =>
           employeeCard(
             employee.name,
@@ -57,8 +57,8 @@ const employees = [
 ];
 function employeeCard(name, image, alt, title, socials) {
   return (
-    <div className="flex gap-5 items-center">
-      <div className="size-20 md:size-32 lg:size-40">
+    <div className="mb-5 sm:mb-0 flex flex-col sm:flex-row gap-5 items-center justify-center">
+      <div className="size-20 sm:mb-8 md:m-0 md:size-32 lg:size-40">
         <img
           style={{
             width: "100%",
@@ -72,7 +72,7 @@ function employeeCard(name, image, alt, title, socials) {
           src={image}
         />
       </div>
-      <div>
+      <div className="flex flex-col justify-center items-center sm:items-start sm:block">
         <p className="font-playfair font-bold">{name}</p>
         <p className="text-sm">{title}</p>
         <div className="flex gap-1 mt-1">

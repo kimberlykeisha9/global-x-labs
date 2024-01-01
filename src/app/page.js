@@ -1,4 +1,5 @@
 "use-client";
+import Head from "next/head";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
@@ -9,26 +10,31 @@ import Team from "./components/team";
 
 export default function Home() {
   return (
-    <div>
-      <Introduction />
-      <br />
-      <br />
-      <About />
-      <br />
-      <br />
-      <Solutions />
-      <br />
-      <br />
-      <Services />
-      <br />
-      <br />
-      <Team />
-      <br />
-      <br />
-      <Contact />
-      <br />
-      <br />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <link rel="icon" href="/public/logo.png" />
+      </Head>
+      <div>
+        <Introduction />
+        <br />
+        <br />
+        <About />
+        <br />
+        <br />
+        <Solutions />
+        <br />
+        <br />
+        <Services />
+        <br />
+        <br />
+        <Team />
+        <br />
+        <br />
+        <Contact />
+        <br />
+        <br />
+        <Footer />
+      </div>
+    </>
   );
 }

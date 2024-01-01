@@ -12,7 +12,7 @@ export default function Services() {
       <br />
       <p className="text-sm text-center font-bold">OUR SERVICES</p>
       <br />
-      <div className="items-center justify-center grid grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="items-center justify-center grid sm:grid-cols-2 md:grid-cols-3 gap-5">
         {services.map((service, index) =>
           serviceDescription(service.title, service.image)
         )}

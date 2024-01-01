@@ -22,8 +22,8 @@ export default function Solutions() {
     <div className="px-20 lg:px-40">
       <p className="font-bold text-center text-sm">WHAT ARE OUR SOLUTIONS?</p>
       <br />
-      <div className="flex gap-10 h-auto lg:max-h-72 xl:max-h-56">
-        <div className="w-1/2">
+      <div className="flex-col sm:flex-row flex gap-10 h-auto lg:max-h-72 xl:max-h-56">
+        <div className="size-24 w-full sm:w-1/2 sm:size-auto">
           <img
             style={{
               width: "100%",
@@ -36,7 +36,7 @@ export default function Solutions() {
             src={image}
           />
         </div>
-        <div className="w-1/2 flex flex-col justify-between items-start">
+        <div className="w-full sm:w-1/2 flex flex-col justify-between items-center sm:items-start">
           <p className="font-playfair">
             <b>{title}</b> {body}
           </p>
