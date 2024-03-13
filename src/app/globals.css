@@ -22,10 +22,12 @@
 
 * {
   transition: 200ms;
-  line-break: normal;
+  /* -webkit-hyphens: auto;
+  hyphens: auto; */
+  /* line-break: normal;
   word-break: break-all;
   word-wrap: normal;
-  white-space: normal;
+  white-space: normal; */
 }
 
 .font-playfair {

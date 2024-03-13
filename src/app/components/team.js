@@ -54,11 +54,32 @@ const employees = [
       },
     ],
   },
+  {
+    name: "STEAM Educators",
+    alt: "Steam educators",
+    image: "https://i.pinimg.com/236x/b2/b1/e5/b2b1e5c7cec20a47f636366f9dd55077.jpg",
+    title: "",
+    socials: [],
+  },
+  {
+    name: "Consultants",
+    alt: "Consultants",
+    image: "https://i.pinimg.com/236x/03/54/7e/03547e26464925b3191aefd1134bb68e.jpg",
+    title: "",
+    socials: [],
+  },
+  {
+    name: "Project Managers",
+    alt: "Project Managers",
+    image: "https://i.pinimg.com/236x/c5/29/c4/c529c4f8c91eedfbf1f0a0f71365b365.jpg",
+    title: "",
+    socials: [],
+  },
 ];
 function employeeCard(name, image, alt, title, socials) {
   return (
     <div className="mb-5 sm:mb-0 flex flex-col sm:flex-row gap-5 items-center justify-center">
-      <div className="size-20 sm:mb-8 md:m-0 md:size-32 lg:size-40">
+      <div className="size-20 sm:mb-8 md:m-0  lg:size-40">
         <img
           style={{
             width: "100%",

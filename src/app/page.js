@@ -7,6 +7,8 @@ import Introduction from "./components/introduction";
 import Services from "./components/services";
 import Solutions from "./components/solutions";
 import Team from "./components/team";
+import Focus from "./components/focus";
+import WhyUs from "./components/whyus";
 
 export default function Home() {
   return (
@@ -18,9 +20,16 @@ export default function Home() {
         <Introduction />
         <br />
         <br />
+        
         <About />
         <br />
         <br />
+        <Focus />
+        <br/>
+        <br/>
+        <WhyUs />
+        <br/>
+        <br/>
         <Solutions />
         <br />
         <br />
